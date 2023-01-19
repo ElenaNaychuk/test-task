@@ -6,7 +6,8 @@ function Product({ product, message, disabled }) {
 
     const [selected, setSelected] = useState(false);
 
-    const handleChange = () => {
+    const handleChange = (e) => {
+        e.preventDefault();
         setSelected(!selected)
     };
 
