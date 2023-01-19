@@ -3,9 +3,9 @@ import products from './productsData.json';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <ProductsList products={products} />
-    </div>
+    </>
   );
 }
 

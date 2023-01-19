@@ -3,9 +3,9 @@ import style from './productsList.module.scss';
 
 function ProductsList(props) {
     return (
-        <div className={style.productList__container}>
+        <main className={style.productList__container}>
             <h2 className={style.productList__title}>Ты сегодня покормил кота?</h2>
-            <div className={style.productList__list}>
+            <section className={style.productList__list}>
                 {
                     props.products.map((item) =>
                         <Product
@@ -16,8 +16,8 @@ function ProductsList(props) {
                         />
                     )
                 }
-            </div>
-        </div>
+            </section>
+        </main>
     );
 }
 

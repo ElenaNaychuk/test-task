@@ -13,7 +13,7 @@
             rgba(0, 0, 0, 0.5) 100%),
         url(/../public/assets/images/Background.png);
     padding: 0 80px 67px;
-    margin: 0 auto;
+    margin: 50px auto;
 
     .productList__title {
         text-align: center;
@@ -30,7 +30,24 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        gap: 80px;
+        gap: 70px;
         margin-top: 24px;
+    }
+}
+
+@media screen and (min-width: 699px) and (max-width: 1023px) {
+    .productList__container {
+        padding: 0 35px 67px;
+        margin: 20px auto;
+
+        .productList__list {
+            gap: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .productList__container {
+        padding: 0 30px 67px;
     }
 }

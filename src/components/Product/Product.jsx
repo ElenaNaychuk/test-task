@@ -32,7 +32,7 @@ function Product({ product, message, disabled }) {
     );
 
     return (
-        <section className={style.product__container}>
+        <div className={style.product__container}>
             <div onClick={handleChange} className={style.product} disabled={disabled}>
                 <div className={productBlock}>
                     <p className={product__productText}>{product.defaulText}</p>
@@ -58,7 +58,7 @@ function Product({ product, message, disabled }) {
                         </p>}
                 </div>
             </div>
-        </section>
+        </div>
     );
 }
 
