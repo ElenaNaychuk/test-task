@@ -24,10 +24,6 @@
                 color: rgba(102, 102, 102, 1);
             }
 
-            .product__productText_red {
-                color: red;
-            }
-
             .product__name {
                 height: 56px;
                 top: calc(50% - 56px/2 - 181.5px);
@@ -70,17 +66,28 @@
                 right: 16px;
                 bottom: 16px;
                 text-align: center;
-                padding-top: 8px;
+                padding-top: 12px;
+
+                .product__weightText_number {
+                    color: #fff;
+
+                    font-family: 'Trebuchet MS';
+                    font-weight: 400;
+                    font-size: 36px;
+                    line-height: 32px;
+                }
+
+                .product__weightText_text {
+                    color: #fff;
+
+                    font-family: 'Trebuchet MS';
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 22px;
+                }
+
             }
 
-            .product__weightText_text {
-                color: #fff;
-
-                font-family: 'Trebuchet MS';
-                font-weight: 400;
-                font-size: 32px;
-                line-height: 32px;
-            }
 
             .product__weight_blue {
                 background-color: rgba(22, 152, 217, 1);
@@ -111,12 +118,6 @@
             z-index: 2;
         }
 
-        .product__text {
-            color: #fff;
-            margin-top: 14px;
-            text-align: center;
-        }
-
         .productBlock::after {
             display: block;
             position: absolute;
@@ -130,7 +131,7 @@
             background: no-repeat url(/../public/assets/images/catPhoto.png);
         }
 
-        .product__text {
+        .product__message {
             height: 15px;
             margin-top: 14px;
             top: calc(50% - 15px/2 + 247px);
@@ -142,6 +143,12 @@
 
             text-align: center;
             color: #FFFFFF;
+
+            .product__link {
+                color: rgba(22, 152, 217, 1);
+                text-decoration: none;
+                border-bottom: 1px dashed rgba(22, 152, 217, 1);
+            }
         }
     }
 }
@@ -153,42 +160,24 @@
         .productBlock {
             background: url(/../public/assets/images/disabledBack.png);
 
-            .product__productText {
-                opacity: 0.5;
-            }
-
-            .product__name {
-                opacity: 0.5;
-            }
-
-            .product__ingredient {
-                opacity: 0.5;
-            }
-
-            .product__portions {
-                opacity: 0.5;
-            }
-
             .product__weight {
                 background-color: #B3B3B3;
-                opacity: 0.5;
             }
         }
 
+        .productBlock>* {
+            opacity: 0.5;
+        }
+
         .productBlock:hover {
-            cursor: default;
-            opacity: 1;
+            cursor: not-allowed;
         }
 
         .productBlock::after {
             opacity: 0.5;
         }
 
-        a {
-            cursor: default;
-        }
-
-        .product__text_yellow {
+        .product__message_yellow {
             color: #FFFF66;
         }
     }

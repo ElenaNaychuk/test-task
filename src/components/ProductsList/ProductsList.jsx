@@ -1,6 +1,5 @@
-import { isContentEditable } from '@testing-library/user-event/dist/utils';
 import Product from '../Product/Product';
-import style from './productsList.module.scss'
+import style from './productsList.module.scss';
 
 function ProductsList(props) {
     return (
@@ -12,8 +11,7 @@ function ProductsList(props) {
                         <Product
                             key={item.id}
                             product={item.product}
-                            src={item.src}
-                            text={item.text}
+                            message={item.message}
                             disabled={item.disabled}
                         />
                     )

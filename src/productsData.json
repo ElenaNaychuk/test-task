@@ -10,15 +10,10 @@
             "present": "мышь в подарок",
             "weight": "0,5"
         },
-        "src": {
-            "default": "/assets/images/defaultBack.png",
-            "selected": "/assets/images/selectedBack.png",
-            "disabled": "/assets/images/disabledBack.png"
-        },
-        "text": {
+        "message": {
             "callToAction": "Чего сидишь? Порадуй котэ, ",
-            "productDiscription": "Печень утки разварная с артишоками",
-            "isNotAvailable": "Печалька, с фуа-гра закончился"
+            "productDiscription": "Печень утки разварная с артишоками.",
+            "isNotAvailable": "Печалька, с фуа-гра закончился."
         },
         "disabled": false
     },
@@ -33,15 +28,10 @@
             "present": "2 мыши в подарок",
             "weight": "2"
         },
-        "src": {
-            "default": "/assets/images/default-1.png",
-            "selected": "/assets/images/selectedBack.png",
-            "disabled": "/assets/images/disabledBack.png"
-        },
-        "text": {
+        "message": {
             "callToAction": "Чего сидишь? Порадуй котэ, ",
-            "productDiscription": "Печень утки разварная с артишоками",
-            "isNotAvailable": "Печалька, с фуа-гра закончился"
+            "productDiscription": "Головы щучьи с чесноком да свежайшая сёмгушка.",
+            "isNotAvailable": "Печалька, с рыбой закончился."
         },
         "disabled": false
     },
@@ -57,15 +47,10 @@
             "like": "заказчик доволен",
             "weight": "5"
         },
-        "src": {
-            "default": "/assets/images/default-1.png",
-            "selected": "/assets/images/selectedBack.png",
-            "disabled": "/assets/images/disabledBack.png"
-        },
-        "text": {
+        "message": {
             "callToAction": "Чего сидишь? Порадуй котэ, ",
-            "productDiscription": "Печень утки разварная с артишоками",
-            "isNotAvailable": "Печалька, с фуа-гра закончился"
+            "productDiscription": "Филе из цыплят с трюфелями в бульоне.",
+            "isNotAvailable": "Печалька, с курой закончился."
         },
         "disabled": true
     }
