@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "product": {
+            "name": "Нямушка",
+            "defaulText": "Сказочное заморское яство",
+            "selectedHoverText": "Котэ не одобряет?",
+            "ingredient": "с фуа-гра",
+            "portions": 10,
+            "present": "мышь в подарок",
+            "weight": "0,5"
+        },
+        "src": {
+            "default": "/assets/images/defaultBack.png",
+            "selected": "/assets/images/selectedBack.png",
+            "disabled": "/assets/images/disabledBack.png"
+        },
+        "text": {
+            "callToAction": "Чего сидишь? Порадуй котэ, ",
+            "productDiscription": "Печень утки разварная с артишоками",
+            "isNotAvailable": "Печалька, с фуа-гра закончился"
+        },
+        "disabled": false
+    },
+    {
+        "id": 2,
+        "product": {
+            "name": "Нямушка",
+            "defaulText": "Сказочное заморское яство",
+            "selectedHoverText": "Котэ не одобряет?",
+            "ingredient": "с рыбой",
+            "portions": 40,
+            "present": "2 мыши в подарок",
+            "weight": "2"
+        },
+        "src": {
+            "default": "/assets/images/default-1.png",
+            "selected": "/assets/images/selectedBack.png",
+            "disabled": "/assets/images/disabledBack.png"
+        },
+        "text": {
+            "callToAction": "Чего сидишь? Порадуй котэ, ",
+            "productDiscription": "Печень утки разварная с артишоками",
+            "isNotAvailable": "Печалька, с фуа-гра закончился"
+        },
+        "disabled": false
+    },
+    {
+        "id": 3,
+        "product": {
+            "name": "Нямушка",
+            "defaulText": "Сказочное заморское яство",
+            "selectedHoverText": "Котэ не одобряет?",
+            "ingredient": "с курой",
+            "portions": 100,
+            "present": "5 мышей в подарок",
+            "like": "заказчик доволен",
+            "weight": "5"
+        },
+        "src": {
+            "default": "/assets/images/default-1.png",
+            "selected": "/assets/images/selectedBack.png",
+            "disabled": "/assets/images/disabledBack.png"
+        },
+        "text": {
+            "callToAction": "Чего сидишь? Порадуй котэ, ",
+            "productDiscription": "Печень утки разварная с артишоками",
+            "isNotAvailable": "Печалька, с фуа-гра закончился"
+        },
+        "disabled": true
+    }
+]
